@@ -9,6 +9,6 @@ if (![System.IO.File]::Exists(".\windows\$scriptName")) {
 }
 
 $pythonPrependPath = "1"
-$pythonVersion = "3.6"
+$pythonVersion = "3.5"
 $pythonArch = "64"
 Invoke-Expression ".\$scriptName"
